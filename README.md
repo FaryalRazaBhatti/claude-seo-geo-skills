@@ -85,7 +85,7 @@ Download the skills you want, or clone this repo.
 - [internal-linking.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/internal-linking.zip)
 - [structured-data.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/structured-data.zip)
 
-**Claude (web, desktop and mobile apps):** upload each skill's zip under Settings, Capabilities, Skills. For the full system, upload all of them.
+**Claude (web, desktop and mobile apps):** go to Customize > Skills, click "+", then "Create skill" and "Upload a skill", and upload each skill's zip. For the full system, upload all of them. See Anthropic's [guide to using skills](https://support.claude.com/en/articles/12512180).
 
 **Claude Code:** copy the folders inside `skills/` into `~/.claude/skills/` (or your project's `.claude/skills/`).
 
