@@ -100,7 +100,8 @@ Then ask Claude naturally, for example "run a full SEO and GEO review of my site
 
 ## Examples
 
-`examples/apple-uk/` shows `competitor-analysis` and `geo-visibility` run on public pages as worked examples. They aren't affiliated with or endorsed by any brand mentioned.
+- `examples/faryalrazabhatti-co-uk/`: all ten skills run on a real site, using its own Search Console data.
+- `examples/apple-uk/`: `competitor-analysis` and `geo-visibility` run on public pages. Not affiliated with or endorsed by any brand mentioned.
 
 ## Contributing
 
