@@ -68,9 +68,24 @@ The file has a "checked" date. Google's guidance changes, so review it against t
 
 ## Install
 
-Download a single skill or the full set from the [latest release](../../releases/latest), or clone this repo.
+Download the skills you want, or clone this repo.
 
-**Claude (web, desktop and mobile apps):** upload a skill's zip under Settings, Capabilities, Skills. Upload each skill you want separately.
+**Full set:** [all-skills.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/all-skills.zip)
+
+**Individual skills:**
+
+- [seo-geo-system.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/seo-geo-system.zip)
+- [seo-audit.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/seo-audit.zip)
+- [search-console-analysis.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/search-console-analysis.zip)
+- [competitor-analysis.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/competitor-analysis.zip)
+- [geo-visibility.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/geo-visibility.zip)
+- [content-planner.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/content-planner.zip)
+- [content-writer.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/content-writer.zip)
+- [content-refresh.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/content-refresh.zip)
+- [internal-linking.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/internal-linking.zip)
+- [structured-data.zip](https://github.com/FaryalRazaBhatti/claude-seo-geo-skills/raw/main/dist/structured-data.zip)
+
+**Claude (web, desktop and mobile apps):** upload each skill's zip under Settings, Capabilities, Skills. For the full system, upload all of them.
 
 **Claude Code:** copy the folders inside `skills/` into `~/.claude/skills/` (or your project's `.claude/skills/`).
 
@@ -89,7 +104,7 @@ Then ask Claude naturally, for example "run a full SEO and GEO review of my site
 
 ## Contributing
 
-Edit files in `shared/`, then run `python3 scripts/build.py` to copy them into every skill and rebuild the zips. `python3 scripts/build.py --check` confirms everything is in sync.
+Edit files in `shared/` or `skills/`, then run `python3 scripts/build.py` to copy the shared files into every skill and rebuild the zips in `dist/`. `python3 scripts/build.py --check` confirms everything is in sync.
 
 ## Credit
 
